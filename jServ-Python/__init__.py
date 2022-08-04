@@ -1,1 +1,1 @@
-name = "jServ-Python"
+name = "jServ-python"

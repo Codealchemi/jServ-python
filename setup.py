@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="jServ-Python",
-    version="1.0",
+    name="jServ-python",
+    version="1.0.1",
     author="Codealchemi",
     author_email="kris@codealchemi.com",
     description="Python library for interfacing with jServ",
