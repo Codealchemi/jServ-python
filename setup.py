@@ -10,7 +10,7 @@ setuptools.setup(
     author_email="kris@codealchemi.com",
     description="Python library for interfacing with jServ",
     long_description=long_description,
-    long_description_content_type="text/html",
+    long_description_content_type="text/markdown",
     url="https://github.com/Codealchemi/jServ-python-lib",
     packages=setuptools.find_packages(),
     classifiers=[
