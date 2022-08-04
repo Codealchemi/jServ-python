@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="jServ_api",
-    version="1.0.1",
+    version="1.0.4",
     author="Codealchemi",
     author_email="kris@codealchemi.com",
     description="Python library for interfacing with jServ",
@@ -19,6 +19,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        'requests',
-    ]
+        "requests",
+    ],
 )
