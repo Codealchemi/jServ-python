@@ -1,4 +1,4 @@
-import requests
+import requests,json
 
 
 class jServ:
@@ -141,3 +141,15 @@ class jServ:
             params=q,
             headers=h,
         ).json()
+
+
+if __name__ == "__main__":
+    db = jServ("localhost", 4040, "7dd30892-a7a9-4343-bab0-1cdf6575a201")
+    obj = {
+        "id": 422,
+        "data": {
+            "foo": "bar"
+        }
+    }
+    resp = db.send_add_object("example", json.dumps(obj))
+    print(str(resp))
