@@ -12,8 +12,8 @@
 
 <p align="center">
     <img src="https://img.shields.io/github/license/Codealchemi/jServ-python-lib?style=flat-square">
-    <img src="https://img.shields.io/pypi/v/jServ-Python?style=flat-square">
-    <img src="https://img.shields.io/pypi/pyversions/jServ-Python?style=flat-square">
+    <img src="https://img.shields.io/pypi/v/jServ-python?style=flat-square">
+    <img src="https://img.shields.io/pypi/pyversions/jServ-python?style=flat-square">
     <img src="https://img.shields.io/github/languages/code-size/Codealchemi/jServ-python-lib?style=flat-square">
 </p>
 
