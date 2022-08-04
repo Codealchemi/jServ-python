@@ -12,4 +12,5 @@
 
 <p align="center">
     <img src="https://img.shields.io/github/license/Codealchemi/jServ-python-lib?style=flat-square">
+    <img src="https://img.shields.io/pypi/v/jServ-Python?style=flat-square">
 </p>
