@@ -58,11 +58,12 @@ class jServ:
     def send_query_newId(self, db):
         q = {"db": db}
         h = {"x-api-key": self.key}
-        return requests.get(
-            "http://{0}:{1}/query/byAttributes".format(self.url, self.port),
+        res = requests.get(
+            "http://{0}:{1}/query/newId".format(self.url, self.port),
             params=q,
             headers=h,
-        ).json()
+        )
+        return res.json()
 
     # ----------------------------POST Requests----------------------------
 
@@ -145,11 +146,16 @@ class jServ:
 
 if __name__ == "__main__":
     db = jServ("localhost", 4040, "7dd30892-a7a9-4343-bab0-1cdf6575a201")
+    """
     obj = {
-        "id": 422,
+        "id": 420,
         "data": {
             "foo": "bar"
         }
     }
-    resp = db.send_add_object("example", json.dumps(obj))
-    print(str(resp))
+    """
+    #resp = db.send_add_object("example", json.dumps(obj))
+    #print(str(resp))
+
+
+    db.send_query_newId("example")
